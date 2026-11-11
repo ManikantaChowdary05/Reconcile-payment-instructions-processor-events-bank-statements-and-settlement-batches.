@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Generated data & outputs (regenerate via src/generate_data.py)
+data/
+output/
+
+# Secrets — never commit API keys
+.env
+*.key
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

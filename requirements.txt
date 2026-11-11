@@ -1,0 +1,4 @@
+# Core pipeline is stdlib-only. `openai` is optional and only needed for
+# live LLM triage in src/llm_assistant.py (a deterministic heuristic
+# fallback is used when no API key / package is available).
+openai>=1.40.0
